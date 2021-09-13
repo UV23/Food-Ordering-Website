@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Cinzel', serif;
+        }
+
+        .navbar {
+            display: flex;
+            background-color: black;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 15px 60px;
+        }
+
+        .navbar li a {
+            padding: 5px 5px;
+            text-decoration: none;
+            color: whitesmoke;
+            font-size: 30px;
+        }
+
+        .navbar li a:hover {
+            padding: 5px 5px;
+            text-decoration: none;
+            color: red;
+            border-radius: 10px;
+        }
+
+        .search {
+            position: relative;
+            top: -40px;
+            left: 1061px;
+        }
+
+        .search input {
+            border-radius: 10px;
+            height: 20px;
+            width: 184px;
+        }
+
+        .bgimg {
+            height: 550px;
+            width: 100%;
+            background-image: linear-gradient(27deg, #004E95 50%, #025E65 50%);
+        }
+
+        .centerdiv {
+            position: absolute;
+            height: 400px;
+            width: 350px;
+            background-color: black;
+            top: 160px;
+            left: 490px;
+            background-image: linear-gradient(27deg, #004E65 50%, #025E95 50%);
+        }
+
+        .profile {
+            border-radius: 50%;
+            position: relative;
+            top: 60px;
+            left: 5px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .u {
+            position: relative;
+            height: 30px;
+            top: 235px;
+            left: 520px;
+            display: block;
+            margin: auto;;
+        }
+
+        .p {
+            position: relative;
+            height: 30px;
+            top: 255px;
+            left: 520px;
+            display: block;
+            margin: auto;
+        }
+
+        .submit {
+            position: relative;
+            top: 275px;
+            left: 520px;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div id="logo">
+            <img src="Images/p1.jpg" alt="logo" class="src">
+        </div>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ORDER US</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">LOG IN</a></li>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="  Search food items you want">
+            </div>
+        </ul>
+    </nav>
+
+    <div class="bgimg">
+        <div class="centerdiv">
+            <img src="Images/icon.png" id="profile">
+            <br>
+            <br>
+            <h2>USER LOGIN</h2>
+        </div>
+
+        <form>
+            <div class="u">
+                <input text="text" name="" class="inputbox" placeholder="USERNAME">
+            </div>
+
+            <div class="p">
+                <input text="text" name="" class="inputbox" placeholder="PASSWORD">
+
+            </div>
+
+            <div class="submit">
+                <button type="submit">LOGIN</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>

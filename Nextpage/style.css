@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* #logo{
+    margin: 2px 2px;
+} */
+
+.navbar{
+    display: flex;
+    background-color: black;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 15px 60px;
+}
+
+.navbar li a{
+    padding: 5px 5px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.navbar li a:hover{
+    padding: 5px 5px;;
+    text-decoration: none;
+    color: red;
+    border-radius: 10px;
+}
+
+.search{
+    position: relative;
+    top: -40px;
+    left: 1061px;
+}
+.search input{
+    border-radius: 10px;
+    height: 20px;
+    width: 184px;
+}
+
+#home{
+    padding: 422px 507px;
+    height: 1200%;
+    width: 26%;
+    font-size: 40px;
+    justify-content: center;
+    color: black; 
+    background: url('Nextpage/Images/img3.jpeg') no-repeat center center/cover;
+    z-index: 4;
+    /* opacity: 0.6; */
+}
+.chatbox{
+    z-index: 6;
+    display: inline-block;
+    border: 2px solid black;
+    background-color: green;
+    margin: 2px;
+    width: 150px;
+    color: blanchedalmond;
+
+}
+#chatbox{
+    text-decoration: none;
+    position: fixed;
+    right: 40px;
+    bottom: 2px;
+}
+
+.reservation{
+    display: flex;
+    position: absolute;
+    height: 450px;
+    top: 997px;
+    width: 1362px;
+    background: url('Nextpage/Images/table3.jpeg') no-repeat center center/cover;
+    justify-content: center;
+    z-index: 1;
+}
+.rev{
+    font-size: 30px;
+    color: black;
+}
+.table{
+    position: relative;
+    top: 110px;
+    left: 480px;
+    height: 900px;
+    width: 340px;
+    z-index: 2;
+    border-radius: 10px;
+}
+table{
+    padding: 10px;
+    margin: 10px;
+}
+.order{
+    position: absolute;
+    border: 2px solid black;
+    height: 633px;
+    width: 1362px;
+    top: 1447px;
+    color: black;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    background: url('Nextpage/Images/deliver.jpeg') no-repeat center center/cover;
+}
+.breakfast{
+    position: absolute;
+    top: 190px;
+    left: 65px;
+    height: 250px;
+    width: 250px;
+}
+.lunch{
+    position: absolute;
+    top: 190px;
+    left: 485px;
+    height: 250px;
+    width: 250px;
+}
+.dinner{
+    position: absolute;
+    top: 190px;
+    left: 905px;
+    height: 250px;
+    width: 250px;
+}
+
+.abt{
+    position: absolute;
+    border: 2px solid black;
+    height: 633px;
+    width: 1362px;
+    top: 2084px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.add1{
+    position: absolute;
+    color: red;
+    top: 155px;
+    left: 137px;
+}
+.add2{
+    position: absolute;
+    color: red;
+    top: 185px;
+    left: 290px;
+    text-align: left;
+}
+.map iframe{
+    position: relative;
+    height: 325px;
+    width: 350px;
+    top: 75px;
+    left: 335px;
+}

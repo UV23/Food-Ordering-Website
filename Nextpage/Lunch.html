@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunch</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Cinzel', serif;
+        }
+
+        .navbar {
+            display: flex;
+            background-color: black;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 15px 60px;
+        }
+
+        .navbar li a {
+            padding: 5px 5px;
+            text-decoration: none;
+            color: whitesmoke;
+            font-size: 30px;
+        }
+
+        .navbar li a:hover {
+            padding: 5px 5px;
+            text-decoration: none;
+            color: red;
+            border-radius: 10px;
+        }
+
+        .search {
+            position: relative;
+            top: -40px;
+            left: 1061px;
+        }
+
+        .search input {
+            border-radius: 10px;
+            height: 20px;
+            width: 184px;
+        }
+        .lunch{
+            color: whitesmoke;
+            background: red;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .item-1 {
+            position: absolute;
+            top: 180px;
+            left: 192px;
+        }
+
+        .item-2 {
+            position: absolute;
+            top: 180px;
+            left: 800px;
+        }
+
+        .item-3 {
+            position: absolute;
+            top: 412px;
+            left: 192px;
+        }
+
+        .item-4 {
+            position: absolute;
+            top: 412px;
+            left: 800px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div id="logo">
+            <img src="Images/p1.jpg" alt="logo" class="src">
+        </div>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ORDER US</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">LOG IN</a></li>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="  Search food items you want">
+            </div>
+        </ul>
+    </nav>
+    <div class="lunch" id="lunch">
+        <h1>LUNCH</h1>
+        <div class="item-1">
+            <a href="Successfull.html"><img src="Images/Maggi.jpg"></a>
+        </div>
+        <div class="item-2">
+            <a href="Successfull.html"><img src="Images/Momos.jpg"></a>
+        </div>
+        <div class="item-3">
+            <a href="Successfull.html"><img src="Images/Rolls.jpg"></a>
+        </div>
+        <div class="item-4">
+            <a href="Successfull.html"><img src="Images/Patato.jpg"></a>
+        </div>
+    </div>
+</body>
+
+</html>
